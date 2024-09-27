@@ -20,7 +20,7 @@ Karakter Dizileri (str): "Merhaba, Dünya!" gibi metinler.
 Listeler (list): [1, 2, 3] gibi sıralı veri yapıları.
 Sözlükler (dict): {"anahtar": "değer"} şeklinde anahtar-değer çiftleri.
 2. Kontrol Yapıları
-Python'da, koşullu ifadeler ve döngüler kullanarak akış kontrolü sağlanır:
+Python'da, koşullu ifadeler ve döngüler ile akış kontrolü sağlanır:
 
 Koşullu İfadeler: if, elif ve else ile koşul tabanlı kararlar alınabilir.
 
@@ -51,7 +51,8 @@ print(math.sqrt(16))  # 4.0
 Sonuç
 Python, hem başlangıç seviyesindeki programcılar hem de deneyimli geliştiriciler için güçlü bir araçtır. Temel kavramları kavradıktan sonra, Python ile birçok projeyi hayata geçirebilir ve çeşitli alanlarda uygulamalar geliştirebilirsiniz. Hızlı öğrenim süreci ve geniş kütüphane desteği ile Python, günümüz programlama dillerinin en popülerlerinden biridir.
 
-Kaynaklar:
-
+Kaynaklar
 Python Resmi Dokümantasyonu
 W3Schools Python Kılavuzu
+
+
