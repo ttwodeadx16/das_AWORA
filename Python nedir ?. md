@@ -1,58 +1,78 @@
-Python'a Giriş
+# Python'a Giriş
+
 Python, yüksek seviyeli bir programlama dili olup, okunabilirliği ve basit sözdizimi ile bilinir. İlk olarak 1991 yılında Guido van Rossum tarafından geliştirilmiştir. Python, web geliştirme, veri analizi, yapay zeka, bilimsel hesaplamalar ve daha birçok alanda yaygın olarak kullanılmaktadır.
 
-Python'un Temel Özellikleri
-Kolay Öğrenilebilirlik: Python, yeni başlayanlar için ideal bir dildir. Basit sözdizimi ve doğal dil benzeri yapısı sayesinde, kod yazmak ve anlamak oldukça kolaydır.
+---
 
-Geniş Kütüphane Desteği: Python, çok sayıda yerleşik ve üçüncü parti kütüphane sunar. Bu sayede, birçok farklı alanda projeler geliştirmek mümkündür.
+## Python'un Temel Özellikleri
 
-Platform Bağımsızlık: Python, Windows, macOS ve Linux gibi farklı işletim sistemlerinde çalışabilir. Yazdığınız kodlar, bu sistemlerde minimum değişiklikle çalıştırılabilir.
+- **Kolay Öğrenilebilirlik**: Python, yeni başlayanlar için ideal bir dildir. Basit sözdizimi ve doğal dil benzeri yapısı sayesinde, kod yazmak ve anlamak oldukça kolaydır.
 
-Topluluk Desteği: Python, büyük ve aktif bir topluluğa sahiptir. Sorularınıza yanıt bulmak, kaynaklar ve dokümantasyon konusunda zengin içeriklere ulaşmak oldukça kolaydır.
+- **Geniş Kütüphane Desteği**: Python, çok sayıda yerleşik ve üçüncü parti kütüphane sunar. Bu sayede, birçok farklı alanda projeler geliştirmek mümkündür.
 
-Temel Kavramlar
-1. Değişkenler ve Veri Tipleri
+- **Platform Bağımsızlık**: Python, Windows, macOS ve Linux gibi farklı işletim sistemlerinde çalışabilir. Yazdığınız kodlar, bu sistemlerde minimum değişiklikle çalıştırılabilir.
+
+- **Topluluk Desteği**: Python, büyük ve aktif bir topluluğa sahiptir. Sorularınıza yanıt bulmak, kaynaklar ve dokümantasyon konusunda zengin içeriklere ulaşmak oldukça kolaydır.
+
+---
+
+## Temel Kavramlar
+
+### 1. Değişkenler ve Veri Tipleri
+
 Python, farklı veri tiplerini destekler:
 
-Tam Sayılar (int): 1, 2, 3 gibi sayılar.
-Kesirli Sayılar (float): 1.5, 2.7 gibi ondalıklı sayılar.
-Karakter Dizileri (str): "Merhaba, Dünya!" gibi metinler.
-Listeler (list): [1, 2, 3] gibi sıralı veri yapıları.
-Sözlükler (dict): {"anahtar": "değer"} şeklinde anahtar-değer çiftleri.
-2. Kontrol Yapıları
+- **Tam Sayılar (`int`)**: 1, 2, 3 gibi sayılar.
+- **Kesirli Sayılar (`float`)**: 1.5, 2.7 gibi ondalıklı sayılar.
+- **Karakter Dizileri (`str`)**: "Merhaba, Dünya!" gibi metinler.
+- **Listeler (`list`)**: `[1, 2, 3]` gibi sıralı veri yapıları.
+- **Sözlükler (`dict`)**: `{"anahtar": "değer"}` şeklinde anahtar-değer çiftleri.
+
+### 2. Kontrol Yapıları
+
 Python'da, koşullu ifadeler ve döngüler ile akış kontrolü sağlanır:
 
-Koşullu İfadeler: if, elif ve else ile koşul tabanlı kararlar alınabilir.
+- **Koşullu İfadeler**: `if`, `elif` ve `else` ile koşul tabanlı kararlar alınabilir.
 
-python
-Kodu kopyala
-if a > b:
-    print("a büyüktür b'den")
-Döngüler: for ve while döngüleri ile tekrar eden işlemler yapılabilir.
+  ```python
+  if a > b:
+      print("a büyüktür b'den")
+  ```
 
-python
-Kodu kopyala
-for i in range(5):
-    print(i)
-3. Fonksiyonlar
-Fonksiyonlar, kodun yeniden kullanılabilirliğini artırır. def anahtar kelimesi ile tanımlanır.
+- **Döngüler**: `for` ve `while` döngüleri ile tekrar eden işlemler yapılabilir.
 
-python
-Kodu kopyala
+  ```python
+  for i in range(5):
+      print(i)
+  ```
+
+### 3. Fonksiyonlar
+
+Fonksiyonlar, kodun yeniden kullanılabilirliğini artırır. `def` anahtar kelimesi ile tanımlanır.
+
+```python
 def toplama(a, b):
     return a + b
-4. Modüller ve Kütüphaneler
-Python, kodunuzu daha modüler hale getirmek için modüller oluşturmanıza olanak tanır. Ayrıca, import ifadesi ile dış kütüphaneleri projelerinize dahil edebilirsiniz.
+```
 
-python
-Kodu kopyala
+### 4. Modüller ve Kütüphaneler
+
+Python, kodunuzu daha modüler hale getirmek için modüller oluşturmanıza olanak tanır. Ayrıca, `import` ifadesi ile dış kütüphaneleri projelerinize dahil edebilirsiniz.
+
+```python
 import math
 print(math.sqrt(16))  # 4.0
-Sonuç
+```
+
+---
+
+## Sonuç
+
 Python, hem başlangıç seviyesindeki programcılar hem de deneyimli geliştiriciler için güçlü bir araçtır. Temel kavramları kavradıktan sonra, Python ile birçok projeyi hayata geçirebilir ve çeşitli alanlarda uygulamalar geliştirebilirsiniz. Hızlı öğrenim süreci ve geniş kütüphane desteği ile Python, günümüz programlama dillerinin en popülerlerinden biridir.
 
-Kaynaklar
-Python Resmi Dokümantasyonu
-W3Schools Python Kılavuzu
+---
 
+### Kaynaklar
 
+- [Python Resmi Dokümantasyonu](https://docs.python.org/3/)
+- [W3Schools Python Kılavuzu](https://www.w3schools.com/python/)
